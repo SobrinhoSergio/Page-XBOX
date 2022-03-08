@@ -1,0 +1,102 @@
+@import 'config.css';
+
+@media (max-width: 1200px) {
+
+    .game1, .game2, .game3, .game4 {
+        min-width: 480px;
+    }
+}
+
+@media (max-width: 1100px) {
+
+    .header{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    #home{
+        margin-top: 20px;
+    }
+
+    #jogos{
+        padding: 100px 0;
+    }
+
+    .jogos .content {
+        flex-direction: column;
+        grid-template-columns: 100%;
+    }
+
+    .jogos .left {
+      text-align: center;
+    }
+
+    .jogos .right {
+        margin: 0 auto;
+    }
+
+    .faqs h2 {
+        font-size: 3.5rem;
+    }
+
+    .faqs .content .faq h3 {
+       font-size: 2.0rem;
+    }
+
+    .faqs .content .faq p {
+        font-size: 1.7rem;
+     }
+
+}
+
+@media (max-width: 700px) {
+
+    .container {
+       max-width: 95%;
+    }
+
+    .nav-menu .menu{
+        flex-direction: column;
+        align-items: center;
+       
+    }
+
+    .nav-menu .menu a{
+        font-size: 1.5rem;
+    }
+
+    .faqs h2 {
+        font-size: 3.0rem;
+    }
+
+    .faqs .content .faq h3 {
+       font-size: 1.7rem;
+    }
+
+    .faqs .content .faq p {
+       font-size: 1.5rem;
+    }
+
+    .jogos .left h2 {
+        font-size: 4.0rem;
+    }
+      
+    .jogos .left p {
+        font-size: 2.0rem;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .trademark{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    
+}
+
+
+

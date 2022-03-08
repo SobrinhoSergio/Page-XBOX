@@ -1,0 +1,290 @@
+@import 'config.css';
+
+header{
+    width: 100%;
+    background-color: var(--dark);
+}
+
+.navbar-toggler{
+    display: none;
+}
+
+.header{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo-cabecalho img{
+    cursor: pointer;
+}
+
+.nav-menu .menu{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.nav-menu .menu a{
+    display: block;
+    color: var(--light);
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn-xbox {
+    width: 224px;
+    height: 60px;
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.btn-xbox a{
+    color: var(--dark);
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+/*======MAIN======*/
+
+#home{
+    height: 900px;
+    background-image: url('../images/luz-verde.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+.home{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.home .titles{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.home .titles h1 {
+    font-weight: 600;
+    font-size: 7.2rem;
+    margin-bottom: 30px;
+}
+  
+.home .titles h3 {
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: var(--primary);
+    text-transform: uppercase;
+}
+
+.img-xbox{
+    flex: 1;
+    text-align: center;
+    background-image: url(../images/xbox.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+  
+#jogos{
+    padding: 200px 0;
+    
+}
+
+
+.jogos .content {
+    display: grid;
+    justify-content: space-between;
+    gap: 30px;
+    grid-template-columns: 50% 50%;
+}
+  
+.jogos .left h2 {
+    font-size: 6.4rem;
+    font-weight: 600;
+    line-height: 130%;
+    margin-bottom: 40px;
+}
+
+.jogos .left h2 span {
+    color: var(--primary);
+}
+  
+.jogos .left p {
+    font-weight: 500;
+    font-size: 2.4rem;
+    color: var(--gray);
+    line-height: 170%;
+}
+
+.jogos .right img{
+    display: block;
+    width: 100%;
+}
+  
+
+
+.games {
+    max-width: 1920px;
+    margin: 100px auto 100px auto;
+    display: flex;
+    flex: 1;
+    overflow: auto;
+    white-space: nowrap; 
+}
+
+.games .games_banner {
+    flex: 1;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.games .game1 {
+    background-image: url(../images/banner-farcry6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.games .game1 img {
+    width: 300px;
+    height: 61.67px;
+    margin-bottom: 64.33px;
+}
+
+.games .game2 {
+    background-image: url(../images/banner-forza.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.games .game2 img {
+    width: 300px;
+    height: 83.71px;
+    margin-bottom: 64.33px;
+}
+
+.games .game3 {
+    background-image: url(../images/banner-fifa.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.games .game3 img {
+    width: 200px;
+    height: 65.6px;
+    margin-bottom: 64.33px;
+}
+
+.games .game4 {
+    background-image: url(../images/banner-minecraft.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.games .game4 img {
+    width: 300px;
+    height: 49.8px;
+    margin-bottom: 64.33px;
+}
+
+.faqs .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faqs h2 {
+  width: 100%;
+  font-weight: 600;
+  font-size: 4.8rem;
+  margin-bottom: 17px;
+}
+
+.faqs h2 span {
+  color: var(--primary);
+}
+
+.faqs .content .faq {
+  width: 100%;
+  padding-bottom: 31px;
+  border-bottom: 2px solid var(--gray);
+}
+
+.faqs .content .faq .question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 43px;
+  cursor: pointer;
+}
+
+.faqs .content .faq h3 {
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 36px;
+}
+
+.arrow{
+  font-size: 2.5rem;
+  color: var(--gray);
+}
+
+.rotate{
+  transform: rotate(180deg);
+  color: var(--primary);
+}
+
+.answer {
+  display: none;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 27px;
+  color: var(--gray-light);
+  padding-left: 20px;
+  margin-top: 36px;
+}
+
+.active {
+  display: block;
+}
+
+
+/*======FOOTER======*/
+
+footer{
+    padding: 50px 0;
+    margin-top: 30px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trademark {
+  display: flex;
+  gap: 56px;
+}
+
+.trademark span {
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: var(--gray);
+}
